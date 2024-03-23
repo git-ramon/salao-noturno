@@ -1,0 +1,133 @@
+.neon-button {
+    background-color: #19b421;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    width: 50%;
+    margin-bottom: 51px;
+    margin-left: 25%;
+}
+
+.neon-button:hover {
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: linear-gradient(45deg, #00ff00, #00ff33, #33ff00, #00ff00);
+    background-size: 400%;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 0.3s;
+    border-radius: 20px;
+    
+    box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff33, 0 0 70px #33ff00;
+}
+
+.neon-button:hover:before {
+    opacity: 1;
+}
+
+.title-acess{
+    text-align: center;
+    color: white;
+    margin-bottom: 43px;
+}
+
+.title-acess h1{
+    color: rgb(var(--color_18));
+}
+
+.course-price{
+    font-size: 20px;
+    color: #00ff00;
+    font-family: cursive;
+}
+
+.video-container {
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    height: 0;
+    padding-bottom: 36.85%; /* Proporção 16:9 para o vídeo */
+    margin-bottom: 35px; 
+    margin-top: 5%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Start carrossel */
+
+.carousel-container {
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 31px;
+}
+
+.carousel-slide {
+display: flex;
+transition: transform 0.5s ease;
+margin: 0; /* Removemos a margem para garantir que as imagens fiquem alinhadas corretamente */
+}
+
+.carousel-slide img {
+width: 303px;
+height: 348px;
+margin-right: 20px; /* Adicionamos margem direita para as imagens */
+}
+
+/* Removemos a margem direita para a última imagem */
+.carousel-slide img:last-child {
+margin-right: 0;
+}
+
+.prevBtn, .nextBtn {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: none;
+border: none;
+cursor: pointer;
+z-index: 1; /* Adicionamos uma propriedade z-index para garantir que os botões fiquem sobre as imagens */
+}
+
+#prevBtn {
+left: 10px; /* Ajustamos a posição dos botões */
+}
+
+#nextBtn {
+right: 10px; /* Ajustamos a posição dos botões */
+}
+
+.icon-next, .icon-prev {
+width: 40px;
+}
+
+img.d-block{
+margin-left: 30%;
+margin-right: 30%;
+margin-bottom: 5%;
+}
+
+svg.bi.bi-caret-right-fill, svg.bi.bi-caret-left-fill {
+    color: #000;
+}  
+
+/* Finish carrosel */
+
+
+  
+
