@@ -1,4 +1,4 @@
-.neon-button {
+.neon-button, .whatsapp-btn {
     background-color: #19b421;
     color: #fff;
     border: none;
@@ -30,8 +30,8 @@
     outline: none;
 }
 
-.neon-button:focus {
-    outline: none;
+.neon-button:focus, .whatsapp-btn {
+    outline: none !important;
 }
 
 .neon-button:hover:before {
@@ -140,7 +140,8 @@ footer#SITE_FOOTER_WRAPPER {
   
 span.subtitle {
     color: rgb(var(--color_58));
-}
+    font-weight: bold;
+} 
 
 .link-linha::after {
     content: " ";
