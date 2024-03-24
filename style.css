@@ -11,21 +11,27 @@
     width: 50%;
     margin-bottom: 51px;
     margin-left: 25%;
+    outline: none;
 }
 
 .neon-button:hover {
-    top: -2px;
+    /*top: -2px;
     left: -2px;
     bottom: -2px;
-    right: -2px;
+    right: -2px;*/
     background: linear-gradient(45deg, #00ff00, #00ff33, #33ff00, #00ff00);
-    background-size: 400%;
-    z-index: -1;
+   /* background-size: 400%;
+    z-index: -1;*/
     opacity: 1;
-    transition: opacity 0.3s;
+    transition: opacity 0.5s;
     border-radius: 20px;
     
     box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff33, 0 0 70px #33ff00;
+    outline: none;
+}
+
+.neon-button:focus {
+    outline: none;
 }
 
 .neon-button:hover:before {
@@ -128,6 +134,91 @@ svg.bi.bi-caret-right-fill, svg.bi.bi-caret-left-fill {
 
 /* Finish carrosel */
 
-
+footer#SITE_FOOTER_WRAPPER {
+    border-top: 1.5px solid #d9e1e7;
+}
   
+span.subtitle {
+    color: rgb(var(--color_58));
+}
 
+.link-linha::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    width: 50%;
+    height: 1px;
+    font-weight: bold;
+    border-bottom: 1px solid linear-gradient(45deg, #00ff00, #00ff33, #33ff00, #00ff00);;
+    transition: 0.4s;
+  }
+
+  .link-linha:hover::after {
+    width: 100%;
+    left: 0;
+    color: #00ff00;
+  }
+
+  a.link-linha:hover {
+    color: #00ff00;
+    transition: 0.4s;
+    text-shadow: 0 0 10px #00ff00, 0 0 40px #00ff33, 0 0 70px #33ff00;
+  }
+
+  a.link-linha{
+    text-align: center;
+    padding: 3%;
+    font-size: 20px;
+    text-decoration: underline;
+    color: green;
+  }
+
+
+/* Whatsapp button */
+
+.whatsapp-icon {
+    width: 20px; /* Largura do ícone */
+    height: 20px; /* Altura do ícone */
+    vertical-align: middle; /* Alinha o ícone verticalmente */
+    margin-right: 5px; /* Margem à direita do ícone */
+    border: 1px solid #fff;
+}
+
+
+/* end whatsapp button*/
+
+
+
+@keyframes neon-effect {
+    0% {
+      /*  top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        opacity: 0;*/
+    }
+    100% {
+        /*top: -2px;
+        left: -2px;
+        bottom: -2px;
+        right: -2px;*/
+        background: linear-gradient(45deg, #00ff00, #00ff33, #33ff00, #00ff00);
+      /*  background-size: 400%;
+        z-index: -1;*/
+        opacity: 1;
+        border-radius: 20px;
+        box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff33, 0 0 70px #33ff00;
+    }
+}
+
+.neon-effect {
+    animation: neon-effect 0.5s forwards;
+}
+
+.floating-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
