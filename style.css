@@ -248,6 +248,16 @@ span.subtitle {
     transform: translate(-50%, -50%);
 }
 
-.paragrafo-bonus{
-    font-size: 15px;
+
+.lifetime-access {
+    height: 2px;
+    background-color: rgb(var(--color_18));
+    text-align: center;
+}
+
+.lifetime-access span {
+    background-color: #fffdf0;
+    position: relative;
+    top: -0.5em;
+    padding: 0 10px;
 }
