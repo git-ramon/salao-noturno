@@ -248,6 +248,9 @@ span.subtitle {
     transform: translate(-50%, -50%);
 }
 
+.paragrafo-bonus{
+    font-size: 15px;
+}
 
 .lifetime-access {
     height: 2px;
