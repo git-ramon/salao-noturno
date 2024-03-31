@@ -1225,7 +1225,7 @@
         }
     }
 
-    @media (min-width: 260px) and (max-width: 653px) {
+    @media (min-width: 200px) and (max-width: 653px) {
         [data-mesh-id="comp-lpk2nmvb-rotated-wrapper"] > [id="comp-lpk2nmvb"] {
             left: 125px !important;
             top: -50px !important;
