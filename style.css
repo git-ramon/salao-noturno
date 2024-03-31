@@ -54,6 +54,12 @@
     font-family: cursive;
 }
 
+.price {
+    font-size: 30px !important;
+    color: #04a904  !important;
+    font-family: sans-serif !important;
+}
+
 .video-container {
     position: relative;
     width: 70%;
@@ -237,7 +243,7 @@ span.subtitle {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: transparent !important;
+    background-color: #fffdf0 !important;
     background-clip: border-box;
     border: 2px solid rgb(0 0 0 / 10%);
     border-radius: 2.25rem;
@@ -263,4 +269,16 @@ span.subtitle {
     position: relative;
     top: -0.5em;
     padding: 0 10px;
+}
+
+.instagram-button {
+    background: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    border-radius: 50px !important;
+    color: white !important;
+    border: none !important;
+}
+
+.instagram-button:hover {
+    background: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }

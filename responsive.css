@@ -1,3 +1,4 @@
+
 @media (max-width: 2560px) {
         #comp-lpk7ie2l {
             width: 100% !important;
@@ -625,6 +626,10 @@
             margin: 0px 0px 50px 50px !important;
         }
 
+        #comp-lpk2h3of {
+            width: 300px !important;
+        }
+
     }
 
     @media (min-width: 390px) and (max-width: 844px) {
@@ -811,7 +816,7 @@
         }
 
         #comp-lpk2h3of {
-            width: 450px !important;
+            width: 300px !important;
         }
 
         .whats-svg{
@@ -857,3 +862,19 @@
 
     }
    
+
+    @media (min-width: 864px) and (max-width: 1152px) {
+
+        [data-mesh-id="comp-lpk2nmvb-rotated-wrapper"] > [id="comp-lpk2nmvb"] {
+            top: 110px !important;
+            left: -250px !important;
+        }
+
+        [data-mesh-id=comp-lpjvz2hxinlineContent-gridContainer] > [id="comp-lpk2dyq1"] {
+            left: -700px !important;
+        }
+
+        #comp-lpk2h3of {
+            top: 3% !important;
+        }
+    }
