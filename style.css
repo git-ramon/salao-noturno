@@ -282,3 +282,129 @@ span.subtitle {
     background: linear-gradient(to right, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
+
+#comp-lpk77xaq6 {
+    max-width: 90% !important;
+}
+
+#comp-jacinqk9 {
+    max-width: 90% !important;
+}
+
+
+/* start Different People css */
+
+.team-modern {
+	position: relative;
+	text-align: center;
+	max-width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 0;
+}
+
+.team-modern svg path {
+	fill: #fc8050;
+}
+
+.team-modern-caption {
+	padding: 7px 14px 48px;
+	background: rgb(255 180 126);
+}
+
+.team-modern-header {
+	position: relative;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 32px;
+}
+
+.team-modern-header svg {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate3d(-50%, 0, 0);
+}
+
+.team-modern-figure {
+	position: relative;
+	display: block;
+	top: 0;
+	width: 100%;
+	max-width: 118px;
+	max-height: 118px;
+	margin: 0 auto;
+	transition: all .3s ease;
+	z-index: 1;
+}
+
+.team-modern-figure img {
+    border-radius: 50%;
+    border: 4px solid transparent; /* Definindo uma borda transparente inicialmente */
+    transition: border-color .3s ease; /* Transição para mudança de cor da borda */
+}
+
+.team-modern-figure:hover img {
+    border-color: rgb(243,94,57); /* Mudando a cor da borda ao passar o mouse */
+    transform: scale(1.3);
+    transition: all .3s ease-in-out;
+}
+
+.team-modern-status {
+	color: rgb(243,94,57);
+	letter-spacing: .025em;
+	line-height: 1.71429;
+	font-weight: 500;
+}
+
+.team-modern-phone {
+	font-weight: 500;
+}
+
+.team-modern-name {
+	font-weight: 600;
+}
+
+.img-circles {
+	border-radius: 50%;
+}
+
+
+@media (min-width: 992px) {
+	.desktop .team-modern:hover .team-modern-figure {
+		top: -10px;
+	}
+	.desktop .team-modern:hover .team-modern-figure::before {
+		border-color: rgb(243,94,57);
+	}
+	.desktop .team-modern-2:hover .team-modern-figure::before {
+		border-color: rgb(243,94,57);
+	}
+}
+
+* + .team-modern-status {
+	margin-top: 4px;
+    color: #000;
+}
+
+* + .team-modern-phone {
+	margin-top: 10px;
+}
+
+.team-modern-name a {
+    color: #000;
+}
+
+.team-modern-phone a {
+    color: #000;
+}
+
+.team-modern-phone a:hover,
+.team-modern-name a:hover {
+    color: rgb(243,94,57);
+    text-decoration: overline;
+}
+
+
+
+/* end Different People css */
