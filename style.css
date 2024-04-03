@@ -8,9 +8,8 @@
     font-weight: bold;
     cursor: pointer;
     outline: none;
-    width: 50%;
+    width: 100%;
     margin-bottom: 51px;
-    margin-left: 25%;
     outline: none;
 }
 
@@ -48,10 +47,10 @@
     color: rgb(var(--color_18));
 }
 
-.course-price{
-    font-size: 20px;
-    color: #00ff00;
-    font-family: cursive;
+.course-price {
+    font-size: 50px;
+    color: #03a90a;
+    font-weight: 700;
 }
 
 .price {
@@ -405,6 +404,26 @@ span.subtitle {
     text-decoration: overline;
 }
 
-
-
 /* end Different People css */
+
+.session-price{
+    background: url('https://static.wixstatic.com/media/996798_f6d82284cd59409480410db5e5c47cc1~mv2.png/v1/fill/w_1706,h_637,al_b,q_90,usm_0.66_1.00_0.01,enc_auto/996798_f6d82284cd59409480410db5e5c47cc1~mv2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.course-price-description {
+    color: #fc8050;
+    padding: 50px 0 50px 0;
+}
+
+.course-price-p {
+    color: #ffb47e;
+}
+
+.course-price-title{
+   color: rgb(var(--color_18));
+   font-size: 50px;
+   margin-bottom: 30px;
+}
